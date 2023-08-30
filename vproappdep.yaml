@@ -30,7 +30,7 @@ spec:
               "-c",
               "until nslookup vprodb; do echo waiting for mydb; sleep 2; done;",
             ]
-        - name: init-memecache
+        - name: init-memcache
           image: busybox
           command:
             [
